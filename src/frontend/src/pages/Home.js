@@ -3,7 +3,7 @@ import PerformanceIndicatorWidget from "../components/PerformanceIndicatorWidget
 
 function Home() {
     return (
-        <PerformanceIndicatorWidget />
+        // <PerformanceIndicatorWidget />
     )
 }
 export default Home;
