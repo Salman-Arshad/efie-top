@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from "./pages/Home"
+import Home from "./pages/Home/index.js"
 import Test from "./pages/Test"
 import NotFound from "./pages/NotFound"
 
@@ -15,9 +15,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/test">
+          {/* <Route path="/test">
             <Test />
-          </Route>
+          </Route> */}
           {/* Default */}
           <Route>
             <NotFound />

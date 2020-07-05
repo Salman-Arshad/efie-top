@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-body{
-  /* background-color: #282828; */
+/* body{
+  //background-color: #282828; 
   background-color: #000;
   background-image: url("./Assets/bg.jpg");
   background-repeat: no-repeat;
@@ -23,4 +23,4 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-}
+} */

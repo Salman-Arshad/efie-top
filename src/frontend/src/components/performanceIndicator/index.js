@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from "./Layout"
 function PerformanceIndicatorWidget() {
     return (
     <div className="container">
