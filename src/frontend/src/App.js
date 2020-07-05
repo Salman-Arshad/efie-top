@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from "./pages/Home/index.js"
+import Home from "./pages/Home/index"
 import Test from "./pages/Test"
 import NotFound from "./pages/NotFound"
 
