@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import Home from "./pages/Home/index"
-import Test from "./pages/Test"
+import Test from "./pages/TestPage"
 import NotFound from "./pages/NotFound"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import bg from "./Assets/bg.jpg"
 
 function App() {
   return (
@@ -15,9 +14,9 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          {/* <Route path="/test">
+          <Route path="/test">
             <Test />
-          </Route> */}
+          </Route>
           {/* Default */}
           <Route>
             <NotFound />
