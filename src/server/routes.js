@@ -5,4 +5,7 @@
 module.exports = (app)=>{
     homeRoutes = require('./api/homepage')
     app.get("/",homeRoutes.homepage)
+
+    systemInfo = require("./core-api/systemInfo");
+    app.get("/getSystemInfo",systemInfo.getSystemInfo)
 }
