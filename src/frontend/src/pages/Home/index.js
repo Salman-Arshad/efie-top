@@ -1,5 +1,5 @@
 import React from 'react';
-import PerformanceIndicatorWidget from "../components/performanceIndicator/"
+import PerformanceIndicatorWidget from "../../components/performanceIndicator/"
 import "./Home.scss"
 function Home() {
     return (
